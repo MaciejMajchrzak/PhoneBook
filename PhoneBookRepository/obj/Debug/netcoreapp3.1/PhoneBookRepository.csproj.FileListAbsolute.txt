@@ -1,0 +1,8 @@
+C:\Users\macie\source\repos\PhoneBook\PhoneBookRepository\bin\Debug\netcoreapp3.1\PhoneBookRepository.deps.json
+C:\Users\macie\source\repos\PhoneBook\PhoneBookRepository\bin\Debug\netcoreapp3.1\PhoneBookRepository.dll
+C:\Users\macie\source\repos\PhoneBook\PhoneBookRepository\obj\Debug\netcoreapp3.1\PhoneBookRepository.csprojAssemblyReference.cache
+C:\Users\macie\source\repos\PhoneBook\PhoneBookRepository\obj\Debug\netcoreapp3.1\PhoneBookRepository.AssemblyInfoInputs.cache
+C:\Users\macie\source\repos\PhoneBook\PhoneBookRepository\obj\Debug\netcoreapp3.1\PhoneBookRepository.AssemblyInfo.cs
+C:\Users\macie\source\repos\PhoneBook\PhoneBookRepository\bin\Debug\netcoreapp3.1\PhoneBookRepository.pdb
+C:\Users\macie\source\repos\PhoneBook\PhoneBookRepository\obj\Debug\netcoreapp3.1\PhoneBookRepository.dll
+C:\Users\macie\source\repos\PhoneBook\PhoneBookRepository\obj\Debug\netcoreapp3.1\PhoneBookRepository.pdb

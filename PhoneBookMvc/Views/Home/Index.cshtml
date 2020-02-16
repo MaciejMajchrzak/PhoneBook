@@ -1,0 +1,47 @@
+﻿@model PhoneBookMvc.Models.IndexModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Edit</th>
+            <th scope="col">Remove</th>
+            <th scope="col">FirstName</th>
+            <th scope="col">LastName</th>
+            <th scope="col">Phone</th>
+            <th scope="col">Email</th>
+            <th scope="col">Created</th>
+            <th scope="col">Updated</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int count = 0;
+        }
+
+        @foreach (var row in Model.people)
+        {
+            count++;
+
+            <tr>
+                <th scope="row">@count</th>
+                <td>
+                    <a href="~/Home/Edit/@row.Id">Edit</a>
+                </td>
+                <td>
+                    <a href="~/Home/Remove/@row.Id">Remove</a>
+                </td>
+                <td>@row.FirstName</td>
+                <td>@row.LastName</td>
+                <td>@row.Phone</td>
+                <td>@row.Email</td>
+                <td>@row.Created</td>
+                <td>@row.Updated</td>
+            </tr>
+        }
+    </tbody>
+</table>
